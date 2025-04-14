@@ -1,6 +1,7 @@
 import './App.css';
 import Accordian from './components/1-accordian';
 import TabTest from './components/10-custom_tabs/tab_test';
+import ModalTest from './components/11-custom_modal_popup/modal_test';
 import RandomColor from './components/2-random-color';
 import StarRating from './components/3-star-rating';
 import ImageSlider from './components/4-image-slider';
@@ -42,7 +43,10 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
       {/* Custom tabs components */}
-      <TabTest />
+      {/* <TabTest /> */}
+
+      {/* Custom Modal component */}
+      <ModalTest />
     </div>
   );
 }
