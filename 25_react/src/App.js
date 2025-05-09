@@ -3,6 +3,8 @@ import Accordian from './components/1-accordian';
 import TabTest from './components/10-custom_tabs/tab_test';
 import ModalTest from './components/11-custom_modal_popup/modal_test';
 import GithubProfileFinder from './components/12-github_profile_finder';
+import SearchAutoComplete from './components/13-search_autocomplete_with_api';
+import TicTacToe from './components/14-tic_tac_toe';
 import RandomColor from './components/2-random-color';
 import StarRating from './components/3-star-rating';
 import ImageSlider from './components/4-image-slider';
@@ -50,7 +52,13 @@ function App() {
       {/* <ModalTest /> */}
 
       {/* Github profile finder */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+
+      {/* Search AutoComplete */}
+      {/* <SearchAutoComplete /> */}
+
+      {/* Tic Tac Toe */}
+      <TicTacToe />
     </div>
   );
 }

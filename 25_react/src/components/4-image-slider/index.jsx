@@ -50,7 +50,7 @@ export default function ImageSlider({ url, limit = 5, page = 1 }) {
         return <div>Error occurred! {errorMsg}</div>
     }
 
-    return <div className="container">
+    return <div className="acontainer">
         <BsArrowLeftCircleFill onClick={handlePrevious} className="arrow left-arrow" />
         {
             images && images.length > 0 ?

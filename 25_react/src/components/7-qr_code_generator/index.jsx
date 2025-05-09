@@ -33,7 +33,7 @@ export default function QRCodeGenerator() {
             >
                 Generate
             </button>
-            <div>
+            <div style={{marginTop: "1rem"}}>
                 <QRCode id="qr_code_value" value={qrCode} size={400} bgColor="#fff" />
             </div>
         </div>
